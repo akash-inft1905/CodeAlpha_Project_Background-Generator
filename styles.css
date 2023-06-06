@@ -1,0 +1,113 @@
+/* styles.css */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(357deg, #d21ab1, #d44545);
+}
+
+
+  
+  
+  header {
+    display: flex;
+    font-family: cursive;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 0 auto;
+    max-width: 1500px;
+    border: 3px solid black;
+    background: #dbaeee;
+    border-radius: 24px;
+    margin-top: 0px;
+    height: 100px;
+  }
+  
+  div input{
+    max-width: 68px;
+    border-radius: 7px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1500px;
+    border: 3px solid black;
+    background: #dbaeee;
+    border-radius: 44px;
+    margin-top: 40px;
+    height: 400px;
+  }
+  .color-picker {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    font-family: cursive;
+    font-weight: 600;
+  }
+  
+  .color-picker label {
+    margin-right: 10px;
+  }
+  
+  #direction {
+    margin-left: 5px;
+    border-radius: 7px;
+    border: 2px solid black;
+    color: black;
+    background: rgb(111 207 220);
+  }
+  
+  #gradientBtn,
+  #randomBtn,
+  #resetBtn {
+    padding: 10px 20px;
+    margin-top: 28px;
+    background-color: #31279f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 2px solid black;
+  }
+  
+  .result-container {
+    display: flex;
+    font-family: cursive;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1500px;
+    border: 3px solid black;
+    background: #dbaeee;
+    border-radius: 44px;
+    margin-top: 40px;
+    height: 400px;
+  }
+  
+  .result {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .result {
+      width: 200px;
+      height: 150px;
+    }
+  }
+  
